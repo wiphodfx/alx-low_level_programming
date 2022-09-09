@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*  main.c prints random numbers */
-int main(void) /* main.c generates random numbers and retunrs zero */
+/*  main function of the progra that returns zero */
+int main(void) /* Main function of the program that returns zero */
 {
 	int n;
 
