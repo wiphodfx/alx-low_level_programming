@@ -5,7 +5,7 @@
 
 /* This is the main function of the program*/
 int main(void) 
-	/*This is the main function of the program*/
+/*This is the main function of the program*/
 {
 	int n;
 
@@ -24,6 +24,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-		return (0);
+return (0);
 }
 
