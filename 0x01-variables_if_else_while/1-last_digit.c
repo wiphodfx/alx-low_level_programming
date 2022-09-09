@@ -3,9 +3,8 @@
 #include <stdio.h>
 /**
  * main assigns a random number
- * variable n stores the number each time it is executed
- * to print the last digit n of the number stored in the
- * variable "n".
+ * to print the last digit
+ * of the number stored in the variable n.
  * Return: Always 0 (success)
  */
 int main(void)
@@ -20,7 +19,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-		printf("Last digit of %d is 0 and is 0\n", n);
+		printf("Last digit of %d is 8 and is is greater than 5\n", n);
 	}
 	else
 	{
