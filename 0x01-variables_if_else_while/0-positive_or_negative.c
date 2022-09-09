@@ -4,7 +4,8 @@
 /* more headers goes there */
 
 /* This is the main function of the program*/
-int main(void) /*This is the main function of the program */
+int main(void) 
+	/*This is the main function of the program*/
 {
 	int n;
 
@@ -23,7 +24,6 @@ int main(void) /*This is the main function of the program */
 	{
 		printf("%d is negative\n", n);
 	}
-
 		return (0);
 }
 
