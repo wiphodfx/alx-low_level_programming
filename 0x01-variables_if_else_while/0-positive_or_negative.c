@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* This is the main function of the program*/
-int main(void) 
-/*This is the main function of the program*/
+int main(void) /*This is the main function of the program*/
 {
+/*Entry point of main function*/
 	int n;
 
 	srand(time(0));
