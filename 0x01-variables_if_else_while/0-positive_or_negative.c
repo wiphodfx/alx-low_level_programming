@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+/*Main function for execution of program*/
 int main(void) /*This is the main function of the program*/
-{
-/*Entry point of main function*/
+{	/*Entry point of main function*/
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2; /*Random number generator*/
 	/* your code goes there */
 	if (n > 0)
 	{
@@ -22,6 +21,5 @@ int main(void) /*This is the main function of the program*/
 	{
 		printf("%d is negative\n", n);
 	}
-return (0);
+	return (0);
 }
-
