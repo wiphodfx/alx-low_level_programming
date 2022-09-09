@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /*  main.c prints random numbers */
-int main(void)
-{	
+int main(void) /* main.c generates random numbers and retunrs zero */
+{
 	int n;
 
 	srand(time(0));
