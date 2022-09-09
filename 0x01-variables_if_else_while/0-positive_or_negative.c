@@ -2,11 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
- *
- *  This is a program that generates random numbers
- */
-int main(void) /*This is the main function of the program that executes it*/
+/* This is a program that generates random numbers */
+int main(void)
 {	/*Entry point of main function*/
 	int n;
 
