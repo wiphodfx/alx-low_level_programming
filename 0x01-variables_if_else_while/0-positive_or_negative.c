@@ -2,8 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/*  main function of the progra that returns zero */
-int main(void) /* Main function of the program that returns zero */
+/**
+ *  main-assigns a random number to print the last digit of
+ *  the number stored in the variable n
+ *  Return: always 0 (success)
+ */
+int main(void) 
 {
 	int n;
 
