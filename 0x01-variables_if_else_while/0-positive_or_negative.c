@@ -1,8 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*Main function for execution of program*/
-int main(void)/*This is the main function of the program that executes it*/
+
+/**
+ *
+ *  This is a program that generates random numbers
+ */
+int main(void) /*This is the main function of the program that executes it*/
 {	/*Entry point of main function*/
 	int n;
 
