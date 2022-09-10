@@ -13,7 +13,10 @@ int main(void)
 	{
 		putchar(i);
 	}
-	while (i = 0; i < 10; i++)
+	while (i < 10)
+	{
+		i++;
+	}
 	putchr('\n');
 	return (0);
 }
