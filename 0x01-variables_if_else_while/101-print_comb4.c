@@ -22,7 +22,7 @@ int main(void)
 				putchar(i);
 				putchar(j);
 				putchar(k);
-				if (k > j || j > i)
+				if (k > j > i)
 				{
 					if (i != 55 || k != 56 || j != 57)
 					{
