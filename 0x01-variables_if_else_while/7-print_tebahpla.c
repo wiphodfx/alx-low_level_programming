@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlibh>
+#include <stdlib.h>
 /**
  * main - prints alphabets in lowercase in a reverse order
  * followed by a newline
