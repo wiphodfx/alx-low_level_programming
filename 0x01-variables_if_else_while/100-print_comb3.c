@@ -12,7 +12,6 @@ int main(void)
 {
 	int i;
 	int k;
-	int y;
 
 	for (i = 48; i < 58; i++)
 	{
