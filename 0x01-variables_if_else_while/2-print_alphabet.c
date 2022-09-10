@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main assigns an alphabet to c
- * print alphabets in lowercase
+ * main - prints alphabets in lowercase
  * followed by a newline
  * using the putchar fucnction
  * Return: Always 0 (success)
