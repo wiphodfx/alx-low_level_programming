@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * A program that prints
- * alphabets in lowercase
- * using the putchar fucnction 
+ * main assigns an alphabet to c
+ * A program that print alphabets in lowercase
+ * using the putchar fucnction
  * and Return: Always 0 (success)
  */
 int main(void)
@@ -12,8 +12,8 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		putchar(c);
-		c = c+1;
+		putchar(c, "\n");
+		c = c++;
 	}
-	exit (EXIT_SUCCESS);
+	exit(EXIT_SUCCESS);
 }
