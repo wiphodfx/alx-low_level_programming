@@ -1,18 +1,17 @@
 #include <stdio.h>
 #include "main.h"
-void _putchar(); //function prototype
-
+void _putchar();
 /**
- * main - a program that prints _putchar
+ * am that prints _putchar
  * followed by a new line
  * Return: Always 0 (success)
  */
 int main()
 {
 	_putchar();
-	return (1);
+	return (0);
 }
-_putchar()
+void _putchar()
 {
 	putchar('a');
 	putchar('\n');
