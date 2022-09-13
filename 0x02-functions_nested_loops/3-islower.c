@@ -13,10 +13,10 @@ int _islower(int c)
 
 	if (_islower(ck) == 'c')
 	{
+		_islower();
 		return (1);
 	}
 	else{
 		return (0);
 	}
 }
-_islower(int c);
