@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-void _putchar();
 /**
  * a program that prints _putchar
  * followed by a new line
@@ -9,4 +8,5 @@ void _putchar();
 void _putchar() /* _putchar function - prototype functionn*/
 {
 	putchar('\n');
+	return (0);
 }
