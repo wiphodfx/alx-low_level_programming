@@ -11,9 +11,8 @@ int _islower(int c)
 {
 	char ck= 'c';
 
-	if (_islower(ck) == 'c')
+	if (islower(ck) == 'c')
 	{
-		_islower();
 		return (1);
 	}
 	else{
