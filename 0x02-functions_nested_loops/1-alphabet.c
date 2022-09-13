@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: always void (success)
  */
-void print_alphabet(void) /* prints alphabets in lowercase*/
+void print_alphabet() /* prints alphabets in lowercase*/
 {
 	char ck;
 
@@ -14,5 +14,4 @@ void print_alphabet(void) /* prints alphabets in lowercase*/
 		putchar(ck);
 	}
 	putchar('\n');
-	return void;
 }
