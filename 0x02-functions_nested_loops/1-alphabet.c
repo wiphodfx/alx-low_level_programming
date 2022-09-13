@@ -9,5 +9,5 @@ void print_alphabet()
 		putchar(ck);
 	}
 	putchar('\n');
-	return (0);
+	return;
 }
