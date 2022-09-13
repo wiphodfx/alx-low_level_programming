@@ -7,7 +7,7 @@ void print_alphabet_x10(void);
  * followed by a new line
  * Return: Always 0 (success)
  */
-void print_alphabet_x10(void) /* print_alphabet_x10 prototype function*/
+void print_alphabet_x10(void) /* print_alphabet_x10 - prototype function*/
 {
 	char ck;
 	int i = 0;
