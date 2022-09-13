@@ -9,12 +9,14 @@ int _islower(int c);
  */
 int _islower(int c)
 {
-	int ck = _islower(44444);
+	int ck = _islower('4');
 
 	if (ck == 'c')
 	{
 		return (1);
+		_putchar('\n');
 	}
 	else
 		return (0);
+		_putchar('\n');
 }
