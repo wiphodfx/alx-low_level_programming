@@ -11,7 +11,7 @@ int main()
 	_putchar();
 	return (0);
 }
-void _putchar()
+void _putchar() /* _putchar function - prototype function*/
 {
 	putchar('\n');
 }
