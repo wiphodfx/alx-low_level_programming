@@ -13,6 +13,5 @@ int main()
 }
 void _putchar()
 {
-	putchar('a');
 	putchar('\n');
 }
