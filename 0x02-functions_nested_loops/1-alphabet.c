@@ -5,7 +5,7 @@
  * followed by a new line
  * Return: always void (success)
  */
-void print_alphabet(void) /* print_alphabet- prototype function with parameter void*/
+void print_alphabet(void) /* print_alphabet- prototype function*/
 {
 	char ck;
 
