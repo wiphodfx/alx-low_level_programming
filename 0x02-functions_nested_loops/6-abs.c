@@ -3,7 +3,7 @@
 int _abs(int i);
 /**
  * _abs - computes the absolute values of integers
- * @i - hold absolute value of int to print
+ * @i: hold absolute value of int to print
  * Return: Always 0 (success)
  */
 int _abs(int i)
