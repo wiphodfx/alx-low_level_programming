@@ -14,9 +14,8 @@ int _islower(int c)
 	if (ck == 'c')
 	{
 		return (1);
-		_putchar('\n');
 	}
-	else
+	else{
 		return (0);
-		_putchar('\n');
+	}
 }
