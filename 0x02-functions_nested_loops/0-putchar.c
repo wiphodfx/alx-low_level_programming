@@ -5,8 +5,9 @@
  * followed by a new line
  * Return: Always 0 (success)
  */
-void _putchar() /* _putchar function - prototype functionn*/
+int main(void)
 {
+	_putchar();
 	putchar('\n');
 	return (0);
 }
