@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include "main.h"
-void _putchar()
-{
-	putchar('a');
-	putchar('\n');
-}
+void _putchar(); //function prototype
+
 /**
  * main - a program that prints _putchar
  * followed by a new line
@@ -14,4 +11,9 @@ int main()
 {
 	_putchar();
 	return (1);
+}
+_putchar()
+{
+	putchar('a');
+	putchar('\n');
 }
