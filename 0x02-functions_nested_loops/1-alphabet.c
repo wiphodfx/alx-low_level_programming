@@ -9,14 +9,5 @@ void print_alphabet(void)
 		putchar(ck);
 	}
 	putchar('\n');
-}
-/**
- * main - calls a function that prints the alphabet in lowercase
- * followed by a new line.
- * Return: Always 0 (success)
- */
-int main(void)
-{
-	print_alphabet();
-	return(0);
+	return (0);
 }
