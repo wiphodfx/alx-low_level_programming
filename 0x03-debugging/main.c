@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include "main.h"
 #include <stdlib.h>
 /**
@@ -14,5 +15,4 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	int r =  positive_or_negative(n);
 	return (r);
-
 }
