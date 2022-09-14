@@ -17,5 +17,5 @@ int main(void)
 	n = ((rand() - RAND_MAX) / 2);
 	/* positive_or_negative function test the value of n*/
 	positive_or_negative(n);
-	return (n);
+	return (0);
 }
