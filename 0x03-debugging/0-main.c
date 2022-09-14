@@ -13,8 +13,7 @@ int main(void)
 {
 	int n;
 
-	srand(time(0));
-	n = ((rand() - RAND_MAX) / 2);
+	n = 0;
 	positive_or_negative(n); /* positive_or_negative function test n*/
 	return (0);
 }
