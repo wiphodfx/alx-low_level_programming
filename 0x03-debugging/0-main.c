@@ -3,17 +3,16 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * main - test the function positive_or_negative function
- * main.c - this file must test the function positive_or_negative given a case of 0
- * positive_or_negative() - function test the number stored in n
+ * main - test function that prints if integer is positive or negative
  * @n: holds the  number to be tested
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	int n;
+	int i;
 
-	n = 0;
-	positive_or_negative(n); /* positive_or_negative function test n*/
+	i = 0;
+	/* positive_or_negative function that test the value of i*/
+	positive_or_negative(i); /* positive_or_negative function test n*/
 	return (0);
 }
