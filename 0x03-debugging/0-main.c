@@ -4,7 +4,7 @@
 #include <stdlib.h>
 /**
  * main - test the function positive_or_negative function
- * main.c - test that the function positive_or_negative given a case of 0
+ * main.c - this file must test the function positive_or_negative given a case of 0
  * positive_or_negative() - function test the number stored in n
  * @n: holds the  number to be tested
  * Return: Always 0 (success)
@@ -15,7 +15,6 @@ int main(void)
 
 	srand(time(0));
 	n = ((rand() - RAND_MAX) / 2);
-	/* positive_or_negative function test the value of n*/
 	positive_or_negative(n); /* positive_or_negative function test n*/
 	return (0);
 }
