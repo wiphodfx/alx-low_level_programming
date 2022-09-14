@@ -14,9 +14,8 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	positive_or_negative(n);
 	n = ((rand() - RAND_MAX) / 2);
 	/* positive_or_negative function test the value of n*/
-	/*positive_or_negative(n);*/
-	return (0);
+	positive_or_negative(n);
+	return (n);
 }
