@@ -8,9 +8,11 @@
  */
 int main(void)
 {
-	int r = 0;
+	int r;
 
-	positive_or_negative(r);
+	srand(time(0));
+	n = rand() -RAND_MAX / 2;
+	positive_or_negative(n);
 	return (0);
 
 }
