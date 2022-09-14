@@ -10,10 +10,9 @@
 int main(void)
 {
 	int n;
-	int r;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	r = positive_or_negative(n);
-	return (r);
+	positive_or_negative(n);
+	return (0);
 }
