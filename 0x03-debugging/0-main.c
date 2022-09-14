@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-	int i;
+	int n;
+	int r;
 
 	srand(time(0));
-	i = rand() - RAND_MAX / 2;
-
-	int r = positive_or_negative(i);
+	n = rand() - RAND_MAX / 2;
+	r = positive_or_negative(n);
 	return (r);
 }
