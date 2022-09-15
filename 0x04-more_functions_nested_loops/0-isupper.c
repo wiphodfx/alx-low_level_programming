@@ -12,8 +12,8 @@ int _isupper(int c)
 {
 	int c;
 
-	c = 0;
-	if (c > 64 && c < 91)
+	c = 'a';
+	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
