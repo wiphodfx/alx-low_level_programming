@@ -7,21 +7,18 @@ void print_most_numbers(void);
  */
 void print_most_numbers(void)
 {
-	int c = 0;
-	int j;
+	int c;
 
-	while (c <= 9)
+	for (c = 0; c <= 9; c++)
 	{
-		j = _putchar(c);
-		if (j == 2 || j == 4)
+		if (c == 2 || c == 4)
 		{
-			j++;
+			c++;
 		}
 		else
 		{
-			_putchar(j + '0');
-			j++;
+			_putchar(c + '0');
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
