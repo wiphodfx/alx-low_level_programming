@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+int mul(int a, int b);
 /**
  * mul - that multiplies two integers
  * @a: first integer to be multiplied to b
