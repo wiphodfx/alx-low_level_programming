@@ -4,8 +4,8 @@ int _isupper(int c);
 /**
  * _isupper - function that checks for uppercase character
  * @c: contains value to be compared
- * return: 1 if c is uppercase
- * return: 0 otherwise
+ * returns: 1 if c is uppercase
+ * returns: 0 otherwise
  * Return: Always 0 (success)
  */
 int _isupper(int c)
