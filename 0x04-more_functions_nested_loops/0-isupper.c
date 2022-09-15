@@ -1,9 +1,8 @@
+#include <stdio.h>
 #include "main.h"
 int _isupper(int c);
-
 /**
- * main - check the code.
- * _isupper - function that checks for uppercase character.
+ * _isupper - prototype function that checks for uppercase character.
  * @c: contains character to be compared
  * Returns 1 if c is uppercase
  * Returns 0 otherwise
