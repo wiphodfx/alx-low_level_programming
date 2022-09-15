@@ -5,14 +5,12 @@ void print_numbers(void);
 /**
  * print_numbers - prints the numbers from 0 to 9
  * followed by a new line
- * @c: number stores the number from 0 to 9
- * Return: void
+ * Return: 0
  */
 void print_numbers(void)
 {
-	int c;
+	int c = 0;
 
-	c = 0;
 	while (c <= 9)
 	{
 		_putchar(c);
