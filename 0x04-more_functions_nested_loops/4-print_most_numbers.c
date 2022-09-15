@@ -15,11 +15,12 @@ void print_most_numbers(void)
 		j = _putchar(c);
 		if (j == 2 || j == 4)
 		{
-			c++;
+			j++;
 		}
 		else
 		{
 			_putchar(j + '0');
+			j++;
 		}
 		_putchar('\n');
 	}
