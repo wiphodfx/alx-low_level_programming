@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-int _isupper(int c);
+int _isupper(int c); /*prototype function*/
 /**
  * _isupper - checks for uppercase character
  * @c: holds character
@@ -10,7 +10,7 @@ int _isupper(int c);
  */
 int _isupper(int c)
 {
-	char c;
+	int c;
 
 	if (c >= 'A' && c <= 'Z')
 	{
