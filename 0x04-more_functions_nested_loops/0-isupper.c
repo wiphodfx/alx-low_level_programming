@@ -10,7 +10,6 @@ int _isupper(int c); /*prototype function*/
  */
 int _isupper(int c)
 {
-	int c;
 
 	if (c >= 'A' && c <= 'Z')
 	{
