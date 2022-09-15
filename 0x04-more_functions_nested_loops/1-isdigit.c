@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-int _isdigit(int c);
 /**
  * _isdigit - prototype function that checks for a digit(0 through 9)
  * @c: contains digit to be checked
@@ -18,5 +17,6 @@ int _isdigit(int c)
 	{
 		return (0);
 	}
+	return (0);
 }
 
