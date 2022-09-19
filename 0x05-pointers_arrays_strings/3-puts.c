@@ -8,9 +8,16 @@
  */
 void _puts(char *str)
 {
-	_puts('p');
-	_puts('u');
-	_puts('t');
-	_puts('s');
-	_puts('\n');
+	char *a;
+	int i;
+
+	a = str;
+
+	i = 0;
+	while (a[i])
+	{
+		_putchar(a[i]);
+		i++;
+	}
+	_putchar('\n');
 }
