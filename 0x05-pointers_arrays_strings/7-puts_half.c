@@ -16,7 +16,7 @@ void puts_half(char *str)
 		i++;
 	}
 
-	end = ( i + 1) / 2;
+	end = (i + 1) / 2;
 
 	for (i = end; str[i]; i++)
 	{
@@ -24,4 +24,3 @@ void puts_half(char *str)
 	}
 	_putchar('\n');
 }
-
