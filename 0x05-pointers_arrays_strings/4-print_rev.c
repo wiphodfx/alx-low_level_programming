@@ -4,13 +4,13 @@
  * print_rev - prints a string in reverse
  * followed by a new line
  * @s: stores the string to be printed in reverse order
- * Return: nothing
+ * Return: void
  */
 void print_rev(char *s)
 {
 	int i;
 
-	int i = 0;
+	i = 0;
 	while (s[i] != '\0')
 	{
 		i++;
