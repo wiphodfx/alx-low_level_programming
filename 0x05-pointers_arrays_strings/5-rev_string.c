@@ -33,6 +33,6 @@ void rev_string(char *s)
 		*first_character = c;
 
 		first_character++;
-		last_character++;
+		last_character--;
 	}
 }
