@@ -7,7 +7,7 @@
  * Return: s that matches any character
  */
 
-char *_strpbrk(char *s, *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int j;
 
