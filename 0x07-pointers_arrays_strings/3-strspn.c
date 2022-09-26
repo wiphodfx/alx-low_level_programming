@@ -2,7 +2,7 @@
 
 /**
  * *_strspn - locates a character in a string
- * @: the main C string to be scanned
+ * @s: the main C string to be scanned
  * @accept: string containing list of character to match s
  * Return: count
  */
