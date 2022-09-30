@@ -11,6 +11,6 @@
 
 int main(int argc, char *argv[])
 {
-	printf("My name is: %s %d\n", argv[1], argc);
+	printf("%d %s\n", argc, argv[1]);
 	return (0);
 }
