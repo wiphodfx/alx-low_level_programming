@@ -5,7 +5,7 @@
  * main - a program that multiplies two numbers
  * @argc: counts numbers
  * @argv: stores the input
- * Return: Always 0
+ * Return: Always 1
  */
 
 int main(int argc, char *argv[])
@@ -21,7 +21,6 @@ int main(int argc, char *argv[])
 			i++;
 		}
 		printf("%d\n", sum);
-		return (0);
 	}
 	else if (argc == 1)
 	{
