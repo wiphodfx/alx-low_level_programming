@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int i = 1;
 	int sum = 1;
 
-	if (argc > 1)
+	if (argc > 2)
 	{
 		while (i < argc)
 		{
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", sum);
 	}
-	else if (argc == 1)
+	else if (argc <= 2)
 	{
 		printf("Error\n");
 		return (1);
