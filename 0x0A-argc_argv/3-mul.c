@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int i = 1;
 	int sum = 1;
 
-	if (argc > 2)
+	if (argc > 2 && argc < 4)
 	{
 		while (i < argc)
 		{
