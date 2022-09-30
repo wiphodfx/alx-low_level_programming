@@ -1,30 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - a program that multiplies two numbers
- * @argc: counts numbers
- * @argv: stores the input
- * Return: Always 1
+ * main - prints the multiplication of two integers
+ * followed by a newline
+ * @argc: counts the input
+ * @argv: holds the value to multiply
+ * Return: 0 if true, 1 if false
  */
-
 int main(int argc, char *argv[])
 {
-	int i = 1;
-	int sum = 1;
+	int firstNumber;
+	int secondNumber;
 
-	if (argc > 2 && argc < 4)
+	if (argc == 3)
 	{
-		while (i < argc)
-		{
-			sum = sum * atoi(argv[i]);
-			i++;
-		}
-		printf("%d\n", sum);
+		firstNumber = atoi(argv[1]);
+		secondNumber = atoi(argv[2]);
+		printf("%d\n", firstNumber * secondNumber);
+		return (0);
 	}
-	else if (argc <= 2)
-	{
-		printf("Error\n");
-		return (1);
-	}
+	printf("Error\n");
+	return (1);
 }
