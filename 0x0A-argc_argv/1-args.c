@@ -14,7 +14,8 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("%s: %d\n",argv[i], i);
+		argc += atoi(argv[i]);
 	}
+	printf("%d\n", argc);
 	return (0);
 }
