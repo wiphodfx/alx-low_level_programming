@@ -12,11 +12,13 @@ int main(int argc, char *argv[])
 {
 	int i;
 
-	for (i = 0;  i < argc; i++)
+	if (argc > 1)
 	{
-		argc = argc + atoi(argv[i]);
+		for (i = 1;  i < argc; i++)
+		{
+			argc = argc + atoi(argv[i]);
+		}
+		printf("%d\n", argc);
+		return (0);
 	}
-	printf("%d\n", argc);
-	return (0);
 }
-
