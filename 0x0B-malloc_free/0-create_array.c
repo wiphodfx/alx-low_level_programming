@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * create_array - create an of chars
+ * create_array - create an array of chars
  * and initiailizes it with specific char
  * @size: stores the count
  * @c: character to be initialized
@@ -31,7 +31,7 @@ char *create_array(unsigned int size, char c)
 		i = 0;
 		while (i < size)
 		{
-			*(buffer + i) = c;
+			*(buffer[i]) = c;
 			i++;
 		}
 		return (c);
