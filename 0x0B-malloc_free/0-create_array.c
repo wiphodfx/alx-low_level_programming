@@ -14,26 +14,17 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 
-	char buffer;
+	char *buffer;
 
-	if (size == 0)
+	i = 0;
+	while (i < size)
 	{
-		return (NULL);
-	}
-	buffer = (char *)malloc(size * sizeof(c));
-
-	if (buffer == 0)
-	{
-		return (NULL);
-	}
-	else
-	{
-		i = 0;
-		while (i < size)
+		if (size == 0)
 		{
-			*(buffer[i]) = c;
-			i++;
+			return (NULL);
 		}
-		return (c);
+		buffer = (char *)malloc(size * sizeof(c));
+		return (buffer);
+		i++;
 	}
 }
