@@ -24,7 +24,10 @@ char *create_array(unsigned int size, char c)
 			return (NULL);
 		}
 		buffer = (char *)malloc(size * sizeof(c));
-		*(buffer + i) = c;
+		if (buffer== 0)
+		{
+			*(buffer + i) = c;
+		}
 		i++;
 	}
 	return (buffer);
