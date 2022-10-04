@@ -16,7 +16,7 @@ char *create_array(unsigned int size, char c)
 	char *buffer;
 
 	i = 0;
-	while (i < buffer)
+	while (i < size)
 	{
 		if (size == 0)
 		{
