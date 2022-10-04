@@ -22,8 +22,11 @@ char *create_array(unsigned int size, char c)
 		{
 			return (NULL);
 		}
-		buffer = (char *)malloc(size * sizeof(c));
-		*(buffer + i ) = c;
+		else
+		{
+			buffer = (char *)malloc(size * sizeof(c));
+			*(buffer + i) = c;
+		}
 		i++;
 	}
 	return (buffer);
