@@ -47,12 +47,12 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	for (i = 0; *(s1 * i) != '\0'; i++)
-		*(fst * i) = *(s1 * i);
+	for (i = 0; *(s1 + i) != '\0'; i++)
+		*(fst + i) = *(s1 + i);
 
-	for (j = 0; *(s2 * j) != '\0'; j++)
+	for (j = 0; *(s2 + j) != '\0'; j++)
 	{
-		*(fst * i) = *(s2 * j);
+		*(fst + i) = *(s2 + j);
 		i++;
 	}
 	return (fst);
