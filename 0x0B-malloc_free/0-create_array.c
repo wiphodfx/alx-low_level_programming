@@ -24,11 +24,7 @@ char *create_array(unsigned int size, char c)
 		{
 			return (NULL);
 		}
-		else if (buffer == 0)
-		{
-			return (NULL);
-		}
 		i++;
 	}
-	return (buffer + i);
+	return (buffer);
 }
