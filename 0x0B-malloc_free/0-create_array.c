@@ -25,7 +25,6 @@ char *create_array(unsigned int size, char c)
 		else
 		{
 			buffer = (char *)malloc(size * sizeof(c));
-			*(buffer + i) = c;
 		}
 		i++;
 	}
