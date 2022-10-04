@@ -15,18 +15,25 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 	char *buffer;
 
-	i = 0;
-	while (i < size)
+	if (size == 0)
 	{
-		if (size == 0 && size != '\0')
-		{
-			return (NULL);
-		}
-		else
-		{
-			buffer = (char *)malloc(size * sizeof(c));
-		}
-		i++;
+		return (NULL);
 	}
-	return (buffer);
+
+	buffer = (char *)malloc(size * sizeof(c));
+
+	if (buffer == 0)
+	{
+		return (NULL);
+	}
+	else
+	{
+		i = 0;
+		while (i < size)
+		{
+			*(buffer * i) * c;
+			i++;
+		}
+		return (buffer);
+	}
 }
