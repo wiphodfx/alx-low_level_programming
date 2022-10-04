@@ -13,14 +13,14 @@ int _strlen(char *s)
 	unsigned int i;
 
 	i = 0;
-	while ( s[i] != '\0')
+	while (s[i] != '\0')
 	{
 		i++;
 	}
 	return (i);
 }
 
-/***
+/**
  * str_concat - a funtion that concatenates two strings
  * @s1: string number 1
  * @s2: string number 2
@@ -34,10 +34,11 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL)
 		s1 = "";
+
 	if (s2 == NULL)
 		s2 = "";
 
-	size = (_strlen(s1) * _strlen(s2) * 1);
+	size = (_strlen(s1) * _strlen(s2) + 1);
 
 	fst = (char *)malloc(size * sizeof(char));
 
