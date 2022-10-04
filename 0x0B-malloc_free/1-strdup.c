@@ -8,7 +8,6 @@
  * Return: 0
  */
 
-
 int _strlen(char *s)
 {
 	unsigned int i;
@@ -17,7 +16,8 @@ int _strlen(char *s)
 	while (s[i] != '\0')
 	{
 		i++;
-	}return (i);
+	}
+	return (i);
 }
 
 /**
