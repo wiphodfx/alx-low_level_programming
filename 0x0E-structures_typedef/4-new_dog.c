@@ -20,12 +20,12 @@ char *_strcpy(char *s)
 		for (; i >= 0; i--)
 			p[i] = s[i];
 	}
-	return(0);
+	return (0);
 }
 
 /**
- * name_dog - creates a dog struct
- * *name: name of the dog
+ * new_dog - creates a dog struct
+ * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
  * Return: dog struct or NULL
@@ -43,7 +43,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (p->name == NULL)
 	{
 		free(p);
-		return (NULL)
+		return (NULL);
 	}
 	p->age = age;
 	p->owner = _strcpy(owner);
