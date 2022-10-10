@@ -20,7 +20,7 @@ char *_strcpy(char *s)
 		for (; i >= 0; i--)
 			p[i] = s[i];
 	}
-	return (0);
+	return (p);
 }
 
 /**
