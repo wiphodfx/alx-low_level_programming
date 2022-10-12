@@ -27,10 +27,10 @@ int main(int argc, char *argv[])
 	if (!func)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 
-	o = *argv[1];
+	o = *argv[2];
 
 	if ((o == '/' || o == '%') && arg2 == 0)
 	{
