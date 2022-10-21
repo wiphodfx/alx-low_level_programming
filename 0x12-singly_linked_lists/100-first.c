@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+void __attribute__((constructor)) here(void);
 /**
  * here - prints a string before the main
  * function is executed
