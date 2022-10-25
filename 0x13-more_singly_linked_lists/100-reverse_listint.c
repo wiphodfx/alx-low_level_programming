@@ -15,7 +15,7 @@ listint_t *reverselistint(listint_t **head)
 
 	behind = NULL;
 
-	whiles ((*head)->next != NULL)
+	while ((*head)->next != NULL)
 	{
 		ahead = (*head)->next;
 		(*head)->next = behind;
