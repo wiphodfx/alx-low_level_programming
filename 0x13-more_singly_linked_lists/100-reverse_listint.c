@@ -2,7 +2,7 @@
 
 /**
  * reverse_listint - Reverses a listint_t list
- * @head: Pointer to the address of the head of the listint
+ * @head: Pointer to the address of the head of the listint_t
  * list
  * Return: A pointer to the first node of the reversed list
  */
